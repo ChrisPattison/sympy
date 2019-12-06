@@ -257,7 +257,7 @@ default_datatypes = {
 }
 
 
-COMPLEX_ALLOWED = False
+COMPLEX_ALLOWED = True
 def get_default_datatype(expr, complex_allowed=None):
     """Derives an appropriate datatype based on the expression."""
     if complex_allowed is None:
